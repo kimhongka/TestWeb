@@ -1,0 +1,11 @@
+﻿@using TestWeb.Models
+@model HomeViewModels
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@foreach(var m in Model.AllHeroes)
+{
+    <h4>@m.Name</h4>
+}
+
